@@ -17,6 +17,10 @@ body {
   place-items: center;
 }
 
+.wrapper {
+  /* border: 2px solid lime; */
+}
+
 .display-wrapper {
   display: flex;
   justify-content: flex-end;
@@ -63,7 +67,9 @@ button {
 
 .green-button {
   background-color: hsl(76, 73%, 41%);
-  transition: background-color 0.3s ease;  
+  transition: background-color 0.3s ease;
+  width: 370px;
+  border-radius: 40px;
 }
 
 .green-button:hover {
@@ -80,14 +86,18 @@ button {
   background-color: hsl(0, 100%, 50%);
 }
 
-.equals {
-  display: flex;
-  justify-content: flex-end;
+.equals-container {
+  display: inline-flex;
+  justify-content: center;
 }
 
 
 @media (max-width: 450px) {
   button {
     margin: 0.1rem;
+    margin-bottom: 1rem;
+  }
+  .green-button {
+    width: 343px;
   }
 }
