@@ -90,6 +90,10 @@ button {
 
 @media (max-width: 450px) {
 
+  .display-wrapper {
+    margin-bottom: 1rem;
+  }
+
   button {
     margin: 0.1rem;
     margin-bottom: 1rem;
