@@ -17,17 +17,13 @@ body {
   place-items: center;
 }
 
-.wrapper {
-  /* border: 2px solid lime; */
-}
-
 .display-wrapper {
   display: flex;
   justify-content: flex-end;
   border: 2px solid;
   border-image: linear-gradient(to right, blue, purple, red) 1;
   padding: 1rem 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
 }
 
 .js-calculation {
@@ -93,10 +89,12 @@ button {
 
 
 @media (max-width: 450px) {
+
   button {
     margin: 0.1rem;
     margin-bottom: 1rem;
   }
+  
   .green-button {
     width: 343px;
   }
